@@ -19,10 +19,9 @@
 
 [Dependents accepts non integer values](#dependents-accepts-non-integer-values)
 
-[Dependents entry information not visible for resolution widths less than 990 px](#dependents-entry-information-not-visible-for resolution-widths-less-than-990-px)
+[Dependents entry information not visible for resolution widths less than 990 px](#dependents-entry-information-not-visible-for-resolution-widths-less-than-990-px)
 
-
-
+---
 
 ### First Name and Last Name fields in table are mislabeled
 #### Steps to Reproduce
