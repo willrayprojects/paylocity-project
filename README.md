@@ -3,6 +3,7 @@
 ### Other Documentation
   * [Test Plan](TEST_PLAN.md)
   * [Bug Report](BUGS.md)
+  * [Questions](QUESTIONS.md)
  
 ### Description of Framework
 Set up a Ruby framework that utilizes Cucumber for BDD of automation test scenarios,
