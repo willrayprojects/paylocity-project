@@ -5,12 +5,15 @@ Set up a Ruby framework that utilizes Cucumber for BDD of automation test scenar
 Selenium WebDriver for execution of browser actions, and Cheezy's `page-object` library
 for adherence to a Page Object Model design pattern. 
 
-This framework is set up to use the newest version of Selenium (`Selenium3.0.0.beta1).
+This framework is set up to use the newest version of Selenium (`Selenium3.0.0.beta1`).
 If you wish to use another (e.g. current latest stable is 2.53), simply update the `Gemfile` to
 omit the version distinction.
 
 The use of Watir is possible, but there're at least a few areas tha may need updated 
 (e.g. `navigate.to` will need changed to `goto` within `env.rb`).
+
+Finally, this framework is set up for local execution. If you would like to set up a remote webdriver,
+please update the env.rb to accommodate for this. In its current setup, the transformation should be relatively painless.
 
 ### Setup
 **Note**: when `/path/to/directory` is within a step, please replace that with a proper path

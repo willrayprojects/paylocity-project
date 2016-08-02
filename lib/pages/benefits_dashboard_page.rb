@@ -23,9 +23,14 @@ class BenefitsDashboardPage < BasePage
 
   def populate_employee(user)
     add_employee_modal_element.when_visible(5)
-    self.employee_first_name = user.first_name
-    self.employee_last_name = user.last_name
-    self.employee_dependents = user.dependents
+    user.instance_variables.each do |var|
+      var_string = var.to_s.gsub('@','')
+      field = "employee_#{var_string}"
+      if self.respond_to?(field)
+        # Using "#{field}=" prevents the need of send("#{field}_element").send_keys
+        self.send("#{field}=", user.send(var_string))
+      end
+    end
   end
 
   def fields_visible()
