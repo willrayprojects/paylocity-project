@@ -1,1 +1,0 @@
-html_report: --format PrettyFace::Formatter::Html --out reports.html
