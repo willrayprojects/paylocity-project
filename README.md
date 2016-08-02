@@ -1,5 +1,9 @@
 # Paylocity Automation
 
+### Other Documentation
+  * [Test Plan](TEST_PLAN.md)
+  * [Bug Report](BUGS.md)
+ 
 ### Description of Framework
 Set up a Ruby framework that utilizes Cucumber for BDD of automation test scenarios,
 Selenium WebDriver for execution of browser actions, and Cheezy's `page-object` library
