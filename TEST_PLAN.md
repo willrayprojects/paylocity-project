@@ -12,10 +12,11 @@
 [Automation Considerations](#automation-considerations)
 
 [Functionality to develop tests for](#functionality-to-develop-tests-for)
+
 [Manual Test Cases](#manual-test-cases)
   * [Data Mappings](#data-mappings)
   * [Discount for Existing User](#discount-for-existing-user)
-  * [Resolution changes do not impact user experience adversely](#Resolution-changes-do-not-impact-user-experience-adversely)
+  * [Resolution changes do not impact user experience adversely](#resolution-changes-do-not-impact-user-experience-adversely)
 
 ---
 ## Objectives
