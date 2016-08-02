@@ -16,6 +16,7 @@
   * [Data Mappings](#data-mappings)
   * [Discount for Existing User](#discount-for-existing-user)
   * [Resolution changes do not impact user experience adversely](#Resolution-changes-do-not-impact-user-experience-adversely)
+
 ---
 ## Objectives
 To test the integrity of a small example application for production readiness.
@@ -46,7 +47,6 @@ This build contains the following functionality to exercise and verify.
        * Users with first name beginning with "A" should have a discount
 
 ### Exit Criteria
-
 * No critical or high defects.
 * Any quantity of automation
   * Typically would like to have a percent coverage, but for the scope and timeframe allowed, any is sufficient.
