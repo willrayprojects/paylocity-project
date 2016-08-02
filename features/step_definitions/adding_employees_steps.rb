@@ -87,6 +87,8 @@ end
 Then(/^the data should change in the table$/) do
   @user_data = @page.row(@user)
   @user_data.should_not be_nil
+  
+  # Commented these steps out until First Name and Last Name map properly
   # @user_data['First Name'].text.should eq @user.first_name
   # @user_data['last Name'].text.should eq @user.last_name
   @user_data['Dependents'].text.to_i.should eq @user.dependents
