@@ -2,14 +2,23 @@
 
 ## Bug List
 [First Name and Last Name fields in table are mislabeled](#first-name-and-last-name-fields-in-table-are-mislabeled)
+
 [Double clicking Delete causes two employees to be deleted](#double-clicking-delete-causes-two-employees-to-be-deleted)
+
 [Dependents spelling inconsistent](#dependents-spelling-inconsistent)
+
 [Gender neutral modal heading](#gender-neutral-modal-heading)
+
 [ID should auto increment](#id-should-auto-increment)
+
 [Repeated clicks on delete causes permanent spinner](#repeated-clicks-on-delete-causes-permanent-spinner)
+
 [No required fields](#no-required-fields)
+
 [Dependents accepts negative values](#dependents-accepts-negative-values)
+
 [Dependents accepts non integer values](#dependents-accepts-non-integer-values)
+
 [Dependents entry information not visible for resolution widths less than 990 px](#dependents-entry-information-not-visible-for resolution-widths-less-than-990-px)
 
 
