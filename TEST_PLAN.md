@@ -5,7 +5,7 @@
 
 [Exit Criteria](#exit-criteria)
 
-[Risks[(#risks)
+[Risks](#risks)
 
 [Manual Testing Considerations](#manual-testing-considerations)
 
