@@ -1,6 +1,21 @@
 # Bug Report
 
-### First Name and Last Name fields in Table are Mislabeled
+## Bug List
+[First Name and Last Name fields in table are mislabeled](#first-name-and-last-name-fields-in-table-are-mislabeled)
+[Double clicking Delete causes two employees to be deleted](#double-clicking-delete-causes-two-employees-to-be-deleted)
+[Dependents spelling inconsistent](#dependents-spelling-inconsistent)
+[Gender neutral modal heading](#gender-neutral-modal-heading)
+[ID should auto increment](#id-should-auto-increment)
+[Repeated clicks on delete causes permanent spinner](#repeated-clicks-on-delete-causes-permanent-spinner)
+[No required fields](#no-required-fields)
+[Dependents accepts negative values](#dependents-accepts-negative-values)
+[Dependents accepts non integer values](#dependents-accepts-non-integer-values)
+[Dependents entry information not visible for resolution widths less than 990 px](#dependents-entry-information-not-visible-for resolution-widths-less-than-990-px)
+
+
+
+
+### First Name and Last Name fields in table are mislabeled
 #### Steps to Reproduce
 1. Login as a user
 1. On Benefits Dashboard, click "Add Employee"
@@ -24,7 +39,7 @@ High
 
 ---
 
-### Double clicking Delete Causes Two Employees to be deleted (Until Adding a new Employee)
+### Double clicking Delete causes two employees to be deleted
 #### Steps to Reproduce
 1. Login as user
 1. On Benefits Dashboard, ensure 2 users exist
@@ -51,14 +66,14 @@ Medium
 
 ---
 
-### Dependents Misspelled
+### Dependents spelling inconsistent
 #### Steps to Reproduce
 1. Login as a user
 1. On benefits dashboard, click "Add Employee"
 1. Observe "Dependents" field name
 
 ####Expected Outcome :
- "Dependents"
+"Dependents"
 
 #### Actual Outcome: 
 "Dependants"
@@ -68,7 +83,7 @@ Medium
 
 ---
 
-### "Add Employee" Modal Heading should read as "Add Employee & His/Her dependents"
+### Gender neutral modal heading 
 #### Steps to Reproduce
 1. Login as a user
 1. On benefits dashboard, click "Add Employee"
@@ -85,7 +100,7 @@ Reads "Add Employee & His dependents"
 
 ---
 
-### ID doesn't increment as new entries are added
+### ID should auto increment
 #### Steps to Reproduce
 1. Login as a user
 1. On benefits dashboard, add several users
@@ -107,7 +122,7 @@ High
 
 ---
 
-### Repeated clicks on the delete button results in permanent spinner icon
+### Repeated clicks on delete causes permanent spinner
 #### Steps to Reproduce
 1. Login as a user
 1. Click Delete icon next to a user repeatedly
@@ -131,7 +146,7 @@ Low
 
 ---
 
-### No Fields are required
+### No required fields
 1. Login as a user
 1. Click add a new user
 1. Fail to populate a field and save
@@ -176,7 +191,7 @@ Low/Trivial
 
 ---
 
-### Dependents accepts non-integer values
+### Dependents accepts non integer values
 #### Steps to Reproduce
 1. Login as a user
 1. Click add a new user
@@ -199,7 +214,7 @@ Medium
 
 ---
 
-### Dependents Entry information not visible for resolution widths <= 990 px
+### Dependents Entry information not visible for resolution widths less than 990 px
 #### Steps to Reproduce
 1. Set resolution width greater than 990 px
 1. Login as a user
